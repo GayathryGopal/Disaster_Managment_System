@@ -1,0 +1,11 @@
+{% extends 'home.html' %}
+{% block content %}
+
+<form method="post" >
+    {% csrf_token %}
+product:<input type="text" name="pro">
+Quantity:<input type="text" name="Qua">
+<input type="submit">
+</form>
+
+{% endblock %}

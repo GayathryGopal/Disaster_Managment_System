@@ -1,0 +1,38 @@
+*{
+    padding: 0;margin: 0;list-style: none;
+}
+body{font-family: montserrat; width: 100%;}
+nav{
+    
+     background-color:rgba(163, 61, 13, 0.973);height:80px;width:100%; box-shadow: white;
+}
+label.logo{color:rgb(252, 245, 248);font-size: 35px; 
+    line-height: 80px;padding: 0 30px;
+    font-family: 'Montserrat', sans-serif
+}
+nav ul{
+    float:right;margin-right: 20px; margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;margin: 0 20px;
+}
+nav ul li a{text-decoration: none; color: white;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+div a{text-decoration: none; color:black}
+#x{margin-top: 50px; margin-left: 50px; border-radius:50px;}
+#d{background-color: antiquewhite;}
+#y{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(103, 59, 249); margin-left: 60px;}
+form{margin-top: 50px; margin-left: 180px;}
+#o{width:100%; background-color: aliceblue; height:500px; }
+h2{margin-top:50px;}
+div p{text-align:center ; margin-top: 50px;font-size: 25px; }
+div q{margin-left: 60px;}
+#e1{margin-left: 560px;}
+#f1{margin-left: 560px;}
+#g1{margin-left: 560px;}
+#h1{margin-left: 560px;}
+
+#c2{background-color: rgb(169, 230, 209); width:100%;}
+p{text-decoration: underline;}
+#c1{margin-top:40px; margin-left: 40px;}
+#a12{width: 100%; height:500px;}
+

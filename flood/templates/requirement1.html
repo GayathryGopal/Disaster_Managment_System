@@ -1,0 +1,23 @@
+{% extends 'home.html' %}
+{% block content %}
+
+<form method="post" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <table border="1" width="500px" height="400px" style="background-color:rgb(183, 211, 243);">
+        
+        
+        <tr>
+            <td>Camp_ID</td>
+            <td><input type="text" name="cp"></td>
+        </tr>
+        
+        
+        
+        
+        <tr>
+            <td colspan="2" align="center"><input type="submit" name="sub" value="SEARCH"></td>
+        </tr>
+    </table>
+</form>
+<h1>{{msg}}</h1>
+{% endblock %}

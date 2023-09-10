@@ -1,0 +1,19 @@
+{% extends 'home.html' %}
+{% block content %}
+    <div class="container-fluid" id="d">
+        <div class="row">
+            {% for i in a %}
+            <div class="col-lg-4 col-md-4">
+            <a href="/viewmore?id={{i.Camp_id}}">   
+                <div><img src="{{i.img.url}}"  id="x" alt=""></div>
+                
+                <div id="y" > {{i.Camp_Name}}</div>
+               </a>
+                
+
+        </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endblock %}
+    

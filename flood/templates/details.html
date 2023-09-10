@@ -1,0 +1,64 @@
+{% extends 'home.html' %}
+{% block content %}
+    <div class="container-fluid" id="c2">
+        <div class="row">
+           
+                <div class="col-lg-12 col-md-12" >
+                    <p>CAMP DETAILS</p>
+        <div id="e1"> Country :{{b.Country}}</div><br>
+        <div id="f1">State  :{{b.State}}</div><br>
+        <div id="g1">District :{{b.District}}</div><br>
+        <div id="h1">AVailable No Of Seat :{{b.Total_noof_capacity}}</div><br>
+
+        </div>
+
+            </div>
+           
+            
+
+                <!-- <table border="1">
+
+                    <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                   
+                    
+                    </tr>
+                    {% for i in h %}
+                    <tr>
+                    <td>{{i.Name}}</td>
+                    <td>{{i.Age}}</td>
+                    <td>{{i.Address}}</td>
+                    
+                    </tr>
+                   
+                    {% endfor %}
+                    </table> -->
+             <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-bordered w-50 bg-success" id="c1" >
+                       
+                        <tr>
+                            <th >Name</th>
+                            <th >Age</th>
+                            <th >Address</th>
+                            <th>Gender</th>
+                        </tr>
+
+                        {% for i in h %}
+                    <tr>
+                    <td>{{i.Name}}</td>
+                    <td>{{i.Age}}</td>
+                    <td>{{i.Address}}</td>
+                    <td>{{i.Gender}}</td>
+                    
+                    </tr>
+                   
+                    {% endfor %}
+                    
+                    </table>
+                </div>
+             </div>
+             </div>
+            {% endblock %}
